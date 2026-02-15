@@ -4,8 +4,8 @@
   <name>lidar_filtering</name>
   <version>0.0.0</version>
   <description>Lidar filtering package</description>
-  <maintainer email="user@todo.todo">user</maintainer>
-  <license>TODO: License declaration</license>
+  <maintainer email="virdult@gmail.com">user</maintainer>
+  <license>Apache License 2.0</license>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
 
