@@ -1,5 +1,11 @@
 # Lidar Filtering & Ground Detection
 
+
+
+https://github.com/user-attachments/assets/098fde6c-d19e-496e-8971-ea2f183805b0
+
+
+
 A ROS 2 package designed for 64-ring 3D LiDAR perception. This node processes raw point cloud data, applies spatial cropping, and utilizes a slope-based filtering algorithm to accurately segment ground points from non-ground (obstacle) points.
 
 Developed as a composable ROS 2 node (`rclcpp_components`) for high-performance intra-process communication.
@@ -70,3 +76,10 @@ All parameters can be tuned dynamically or via the YAML file.
 
 ## Node Architecture
 This package is built using `rclcpp_components::NodeFactory`. It can be loaded into an existing component container alongside other perception nodes (like clustering or object detection) to achieve zero-copy transport via ROS 2's intra-process communication.
+
+## Results
+
+<p align="center">
+  <img src="img/photo1.png" width="48%" />
+  <img src="img/photo2.png" width="48%" />
+</p>
