@@ -1,7 +1,0 @@
-# Ignore build, log, install, rosbags, and .idea directories
-build/
-cmake-build-debug/
-log/
-install/
-rosbags/
-.idea/
