@@ -78,7 +78,8 @@ All parameters can be tuned dynamically or via the YAML file.
 This package is built using `rclcpp_components::NodeFactory`. It can be loaded into an existing component container alongside other perception nodes (like clustering or object detection) to achieve zero-copy transport via ROS 2's intra-process communication.
 
 ## Results
-
+Black dots being /ground_points, rainbow dots being /nonground_points, this filtering node is succesfully differentiating the driveable area from the base point cloud in most scenarios.
+Update on YAML file is suggested for your own uses, be it the lidar's parameters or the slope degree.
 <p align="center">
   <img src="img/photo1.png" width="48%" />
   <img src="img/photo2.png" width="48%" />
